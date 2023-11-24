@@ -8,7 +8,7 @@ const createMessage = ({ type, name, tel, brand, model, area, comment }) => {
   Телефон: ${tel}
   Марка: ${brand?.label || noData}
   Модель: ${model?.label || noData}
-  Область: ${area || noData}
+  Область: ${area.label || noData}
   Коментар: ${comment || noData}
   `;
 
