@@ -5,10 +5,10 @@ const createMessage = ({ type, name, tel, brand, model, area, comment }) => {
   Нове Замовлення!!!
   
   Ім'я: ${name || noData}
-  Телефон: ${tel}
+  Телефон: 0${tel}
   Марка: ${brand?.label || noData}
   Модель: ${model?.label || noData}
-  Область: ${area.label || noData}
+  Область: ${area?.label || noData}
   Коментар: ${comment || noData}
   `;
 
